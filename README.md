@@ -1,31 +1,50 @@
-<!DOCTYPE html>
-<html lang="fa">
-<head>
-  <meta charset="UTF-8">
-  <title>گروه محبین - موسسه صراط</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <h1>محبین، سفیران مهر در مسیر صراط</h1>
-    <nav>
-      <ul>
-        <li><a href="#">خانه</a></li>
-        <li><a href="#">درباره ما</a></li>
-        <li><a href="#">فعالیت‌ها</a></li>
-        <li><a href="#">گالری</a></li>
-        <li><a href="#">تماس با ما</a></li>
-      </ul>
-    </nav>
-  </header>
+body {
+  font-family: 'Tahoma', sans-serif;
+  direction: rtl;
+  background-color: #f0f8ff;
+  margin: 0;
+  padding: 0;
+}
 
-  <section class="intro">
-    <img src="images/group-photo.jpg" alt="عکس گروه محبین">
-    <p>گروه محبین، بخشی از موسسه فرهنگی تربیتی صراط، با هدف رشد معنوی، اخلاقی و فرهنگی نوجوانان فعالیت می‌کند.</p>
-  </section>
+header {
+  background-color: #009999;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
 
-  <footer>
-    <p>© گروه محبین - موسسه فرهنگی تربیتی صراط</p>
-  </footer>
-</body>
-</html>
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.intro {
+  text-align: center;
+  padding: 30px;
+}
+
+.intro img {
+  width: 80%;
+  max-width: 600px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #009999;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
